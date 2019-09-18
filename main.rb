@@ -1,9 +1,3 @@
-pyramid = []
-
-File.open('pyramid.txt', 'r').each do |line|
-  pyramid << line.split(',').map { |elem| elem.strip.to_i }
-end
-
 def calculate(pyramid)
   i = pyramid.size - 1
   
